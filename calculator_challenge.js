@@ -6,7 +6,6 @@ function add (num1, num2) {
 //update the sub function
 function sub(num1, num2){
 return num1 - num2;
-
 }
 
 //update the multiply function
@@ -20,30 +19,30 @@ return num1 / num2;
 }
 
 
-function calculator(myNum1, myNum2, operator) {
+function calculator (myNum1, myNum2, operator) {
     let total = 0;
     //insert code here to call the add function if the operator is "+"
 if (operator == "+") {
-return myNum1 + myNum2;
+console.log (total = myNum1 + myNum2);
 }
     //End of insert code add
 
     //insert code here to call the sub function if the operator is "-"
 else if (operator == "-") {
-    return myNum1 - myNum2;
+    console.log (total = myNum1 - myNum2);
 }
     //End of insert code substract
 
 
     //insert code here to call the multiply function if the operator is "*"
 else if (operator == "*"){
-    return myNum1 * myNum2;
+    console.log (total = myNum1 * myNum2);
 }
     //End of insert code multiply
 
     //insert code here to call the divide function if the operator is "/"
     else if (operator == "/"){
-        return myNum1 / myNum2;
+        console.log (total = myNum1 / myNum2);
     }
     //End of insert code divide
     
